@@ -13,6 +13,6 @@ def add():
 
     return f"{num1} + {num2} = {num1 + num2}"
 
-#if __name__ == "__main__":
+if __name__ == "__main__":
     #app.run(debug=True);
-    #app.run(host="0.0.0.0", port=int("1234"), debug=True)
+    app.run(host="0.0.0.0", port=int("1234"), debug=True)
